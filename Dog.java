@@ -5,17 +5,16 @@ public class Dog implements Pet {
         return breed;
     }
 
+    public void setBreed(String breed) {
+        this.breed = breed;
+    }
     @Override
     public String makeSound() {
-        return "aw aw";
+        return "Aw, aw!";
     }
 
     @Override
     public String play() {
-        return "catch and fetch";
+        return "Catching objects that you throw!";
     }
-
-    public void setBreed(String breed) {
-        this.breed = breed;
-    }
-    }
+}
